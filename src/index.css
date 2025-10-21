@@ -19,6 +19,9 @@ body{
     text-align: center;
 }
 /* ============================== */
+.navbar {
+  background-color: var(--secondColor);
+}
 .navbar-nav .nav-link.active {
     color: aliceblue;
     background-color: var(--mainColor);

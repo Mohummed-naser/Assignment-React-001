@@ -1,0 +1,42 @@
+.text-h-por {
+  color: var(--thirdColor);
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.text-h-por::after {
+  content: "";
+  position: absolute;
+  width: 300px;
+  height: 3px;
+  bottom: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--thirdColor);
+}
+.box-por {
+  background-color: #fff;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 0 25px;
+  z-index: 1;
+}
+.color-i {
+  color: var(--thirdColor);
+  font-size: 1.2rem;
+}
+.layer{
+ background-color: #1abc9ccd;
+ opacity: 0;
+ transition: 0.5s;
+ -webkit-transition: 0.5s;
+ -moz-transition: 0.5s;
+ -ms-transition: 0.5s;
+ -o-transition: 0.5s;
+}
+.layer i {
+  font-size: 5rem;
+}
+.layer:hover {
+  opacity: 1;
+}

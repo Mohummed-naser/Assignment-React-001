@@ -1,0 +1,21 @@
+ .box i{
+    background-color: var(--mainColor);
+    width: fit-content;
+    padding: 0 25px;
+    z-index: 0;
+}
+.header-text::after{
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: .1875rem;
+    bottom: -15%;
+    left: 25%;
+    background-color:  #fff;
+    transform: translateX(-20%);
+    -webkit-transform: translateX(-20%);
+    -moz-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    -o-transform: translateX(-20%);
+    z-index: -1;
+}

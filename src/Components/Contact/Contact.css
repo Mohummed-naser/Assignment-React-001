@@ -1,0 +1,19 @@
+.btn {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--mainColor);
+  --bs-btn-border-color: none;
+  --bs-btn-hover-color: none;
+  --bs-btn-hover-bg: var(--mainColor);
+  --bs-btn-active-bg: var(--mainColor);
+  --bs-btn-active-border-color: var(--mainColor);
+}
+@media (min-width: 575.98px) {
+  .form-size {
+    width: 100%;
+  }
+}
+@media (min-width:  991.98px) {
+  .form-size {
+    width: 50%;
+  }
+}
